@@ -17,9 +17,9 @@ const HeroCarousel = () => {
     <div className="hero-carousel ">
       <Carousel
         showArrows={false}
-        autoPlay
+        // autoPlay
         infiniteLoop
-        interval={2000}
+        // interval={2000}
         showStatus={false}
       >
         {heroImages.map((image) => (
